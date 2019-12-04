@@ -23,6 +23,15 @@ function addNumbers(num1, num2) {
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
 
+let additionFunction = (num1, num2) => num1 + num2;
+
+
+
+
+
+
+
+
 /**
  * ### Challenge `makePersonObject`
  * 
@@ -43,6 +52,15 @@ function makePersonObject(/* code here */) {
   /* code here */
 }
 
+
+
+
+
+
+
+
+
+
 /**
  * ### Challenge `getName`
  * 
@@ -60,6 +78,14 @@ function getName(/* code here */) {
   /* code here */
 }
 
+
+
+
+
+
+
+
+
 /**
  * ### Challenge `makeSmartPerson`
  * 
@@ -76,6 +102,9 @@ function getName(/* code here */) {
 function makeSmartPerson(/* code here */) {
   /* code here */
 }
+
+
+
 
 
 
@@ -121,6 +150,15 @@ function get3rdCar(inventory) {
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
+
+
+
+
+
+
+
+
+
 
 
 /**
