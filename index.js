@@ -248,8 +248,10 @@ function getLastCarInfo(array) {
  * For example, if getCarInfoById is invoked with the inventory and the number 1,
  * it will return `This is a Lincoln Navigator`.
 */
-function getCarInfoById(/* code here */) {
+function getCarInfoById(array, id) {
   /* code here */
+  var index = (id-1);
+  return `This is a ${array[index].car_make} ${array[index].car_model}`;
 }
 
 
@@ -270,8 +272,9 @@ function getCarInfoById(/* code here */) {
  *     (1) an array which is an inventory of cars like the one inside /data/inventory.js.
  * sortCarInventory returns an inventory that is sorted by car_model, ascending [A-Z].
 */
-function sortCarInventory(/* code here */) {
+function sortCarInventory(array) {
   /* code here */
+  return array.sort;
 }
 
 
@@ -321,6 +324,10 @@ function getOlderCars(/* code here */) {
   /* code here */
 }
 
+
+
+
+
 /**
  * ### Challenge `getGermanCars`
  * 
@@ -335,6 +342,13 @@ function getOlderCars(/* code here */) {
 function getGermanCars(/* code here */) {
   /* code here */
 }
+
+
+
+
+
+
+
 
 /**
  * ### Challenge refactor to arrow functions
@@ -358,6 +372,16 @@ const sum = null; // code here!
 const addFive = null; // code here!
 const argTimesTwo = null; // code here!
 
+
+
+
+
+
+
+
+
+
+
 /**
  * ### Challenge `carMaker`
  * THIS ONE IS A STRETCH GOAL. ATTEMPT IT ONLY AFTER
@@ -374,6 +398,15 @@ const argTimesTwo = null; // code here!
 function carMaker(/* code here */) {
   /* code here */
 }
+
+
+
+
+
+
+
+
+
 
 /// ////// END OF CHALLENGE /////////
 /// ////// END OF CHALLENGE /////////
