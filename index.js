@@ -161,18 +161,23 @@ var inventory = [
   *
   * NOTE: This example has been completed for you.
 **/
-function get3rdCar(inventory) {
-  const the3rd = inventory.find((item, index) => {
-    return index === 2 // we use 2 because index is zero-based.
-  })
-  return `The car is a ${the3rd.car_make} ${the3rd.car_model}`
+// function get3rdCar(inventory) {
+//   const the3rd = inventory.find((item, index) => {
+//     return index === 2 // we use 2 because index is zero-based.
+//   })
+//   return `The car is a ${the3rd.car_make} ${the3rd.car_model}`
+// }
+
+// 👇 COMPLETE YOUR WORK BELOW 👇
+// 👇 COMPLETE YOUR WORK BELOW 👇
+// 👇 COMPLETE YOUR WORK BELOW 👇
+
+function get3rdCar(array) {
+  var make = array[2].car_make;
+  var model = array[2].car_model;
+  
+  return `The car is a ${make} ${model}`;  
 }
-
-// 👇 COMPLETE YOUR WORK BELOW 👇
-// 👇 COMPLETE YOUR WORK BELOW 👇
-// 👇 COMPLETE YOUR WORK BELOW 👇
-
-
 
 
 
@@ -195,8 +200,15 @@ function get3rdCar(inventory) {
  * it will return `This is a Lincoln Navigator`.
 */
 function getCarInfoByIndex(inventory, index) {
-  /* code here */
+  return `This is a ${inventory[index].car_make} ${inventory[index].car_model}`
 }
+
+
+
+
+
+
+
 
 /**
  * ### Challenge `getLastCarInfo`
@@ -212,6 +224,15 @@ function getCarInfoByIndex(inventory, index) {
 function getLastCarInfo(/* code here */) {
   /* code here */
 }
+
+
+
+
+
+
+
+
+
 
 /**
  * ### Challenge `getCarInfoById`
@@ -229,6 +250,16 @@ function getCarInfoById(/* code here */) {
   /* code here */
 }
 
+
+
+
+
+
+
+
+
+
+
 /**
  * ### Challenge `sortCarInventory`
  * 
@@ -240,6 +271,15 @@ function getCarInfoById(/* code here */) {
 function sortCarInventory(/* code here */) {
   /* code here */
 }
+
+
+
+
+
+
+
+
+
 
 /**
  * ### Challenge `getModelYears`
@@ -253,6 +293,15 @@ function sortCarInventory(/* code here */) {
 function getModelYears(/* code here */) {
   /* code here */
 }
+
+
+
+
+
+
+
+
+
 
 /**
  * ### Challenge `getOlderCars`
