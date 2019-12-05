@@ -58,7 +58,7 @@ function makePersonObject(id, name, email) {
     return user;
 }
 
-console.log(makePersonObject(32, "michelle", "dev@michellerh.com"));
+// console.log(makePersonObject(29, "michelle", "dev@michellerh.com"));
 
 
 
@@ -81,12 +81,18 @@ console.log(makePersonObject(32, "michelle", "dev@michellerh.com"));
  * the returned value should look like `Hello, my name is Leia`.
 */
 
+// var user2=  {
+//   id: 29,
+//   name: "michelle",
+//   email: "dev@dev.com"
+// }
 
-function getName() {
-
+function getName(object) {
+var string= `Hello, my name is ${object.name}`;
+return string
 }
 
-
+// console.log(getName(user2));
 
 
 
@@ -105,9 +111,18 @@ function getName() {
  *         and returns a string like `Hello, my name is {name}`.
  *         where `{name}` is the name passed into `makeSmartPerson`.
 */
-function makeSmartPerson(/* code here */) {
-  /* code here */
-}
+  function makeSmartPerson(name, num1, num2) {
+    var smartPersonObject= {
+      name: name,
+      sum: function add(num1, num2) {
+        return num1 + num2;
+      },
+      speak: function speak() {
+        return "Hello, my name is " + name;
+      }
+    }
+    return smartPersonObject;
+  }
 
 
 
